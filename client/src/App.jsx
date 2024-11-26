@@ -8,7 +8,9 @@ import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
-    <main className="">
+    <main className="min-w-full bg-white text-dark ">
+      <div className="mx-8">
+
       {/* <main className="overflow-x-hidden bg-white text-dark"> */}
       <Hero />
       <Services />
@@ -16,6 +18,7 @@ const App = () => {
       <Subscribe />
       <Banner2 />
       <Footer />
+      </div>
     </main>
   );
 };
