@@ -1,6 +1,7 @@
 import React from "react";
 import { IoMdMenu } from "react-icons/io";
 import { motion } from "framer-motion";
+import Logo from "../../assets/makidev.png"
 
 const NavbarMenu = [
   {
@@ -10,17 +11,17 @@ const NavbarMenu = [
   },
   {
     id: 2,
-    title: "Services",
-    link: "#",
-  },
-  {
-    id: 3,
     title: "About Us",
     link: "#",
   },
   {
+    id: 3,
+    title: "Our Services",
+    link: "#",
+  },
+  {
     id: 4,
-    title: "Our Team",
+    title: "Gallery",
     link: "#",
   },
   {
@@ -31,15 +32,16 @@ const NavbarMenu = [
 ];
 const Navbar = () => {
   return (
-    <nav className="relative z-20">
+    <nav className="z-20 bg-black text-white sticky top-0">
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
-        className="container py-2 mt-2 flex justify-between items-center"
+        className="container py-2 flex justify-between items-center"
       >
         {/* Logo section */}
-        <div>
-          <h1 className="font-bold text-2xl">The Coding Journey</h1>
+        <div className="flex justify-center items-center ml-8">
+          <img src={Logo} className="w-12 " alt="logo" />
+          <h1 className="font-bold text-lg">Maki Developers</h1>
         </div>
         {/* Menu section */}
         <div className="hidden lg:block">
@@ -55,7 +57,7 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            <button className="primary-btn">Sign In</button>
+            {/* <button className="primary-btn">Sign In</button> */}
           </ul>
         </div>
         {/* Mobile Hamburger menu section */}
