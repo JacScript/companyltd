@@ -6,6 +6,7 @@ import Subscribe from "./components/Subscribe/Subscribe";
 import Banner2 from "./components/Banner/Banner2";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/navbar/Navbar";
+import AboutUs from "./components/About-us/AboutUs";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Navbar />
 
       <Hero />
+      <AboutUs />
       <Services />
       <Banner />
       <Subscribe />
