@@ -27,7 +27,11 @@ export const FadeUp = (delay) => {
 const Hero = () => {
   return (
     <section className=" overflow-hidden relative">
-      <div  className="absolute inset-0 bg-cover bg-center opacity-99  bg-custom-bg">
+      <div  className="absolute inset-0 bg-cover bg-center opacity-99"
+      style={{
+        backgroundImage: "url('/src/assets/const.jpg')",
+      }}
+      >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
       <div className="container  min-h-[650px] w-full">
