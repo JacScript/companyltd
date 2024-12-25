@@ -7,6 +7,7 @@ import { BiSupport } from "react-icons/bi";
 import { IoPulseOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
 import pic1 from "../../assets/services1.jpg"
+import pic2 from "../../assets/repaircomp.jpg"
 
 const ServicesData = [
   {
@@ -22,7 +23,7 @@ const ServicesData = [
     title: "Repair",
     desc:"Building Options",
     link: "#",
-    image: pic1,
+    image: pic2,
     delay: 0.3,
   },
   {
@@ -76,7 +77,7 @@ const SlideLeft = (delay) => {
 };
 const Services = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white" id="services">
       <div className="container pb-14 pt-16">
         <h1 className="text-4xl font-bold pb-10 text-center">
           Services we provide

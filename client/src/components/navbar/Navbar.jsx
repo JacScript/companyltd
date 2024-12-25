@@ -12,22 +12,22 @@ const NavbarMenu = [
   {
     id: 2,
     title: "About Us",
-    link: "#",
+    link: "#aboutUs",
   },
   {
     id: 3,
     title: "Our Services",
-    link: "#",
+    link: "#services",
   },
   {
     id: 4,
     title: "Gallery",
-    link: "#",
+    path: "/gallery",
   },
   {
     id: 5,
     title: "Contact Us",
-    link: "#",
+    link: "#contact",
   },
 ];
 const Navbar = () => {
@@ -49,7 +49,7 @@ const Navbar = () => {
             {NavbarMenu.map((menu) => (
               <li key={menu.id}>
                 <a
-                  href={menu.path}
+                  href={menu.path || menu.link}
                   className="inline-block py-2 px-3 hover:text-secondary relative group"
                 >
                   <div className="w-2 h-2 bg-secondary absolute mt-4 rounded-full left-1/2 -translate-x-1/2 top-1/2 bottom-0 group-hover:block hidden"></div>

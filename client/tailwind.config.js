@@ -9,6 +9,9 @@ export default {
       backgroundImage: {
         'custom-bg': "url('/src/assets/const.jpg')",
       },
+      gridTemplateRows: {
+        '[auto,auto,1fr]': 'auto auto 1fr',
+      },
     },
   },
   plugins: [],
