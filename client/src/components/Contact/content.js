@@ -61,8 +61,8 @@ const services = [
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: 'developer@javascript.com',
-  YOUR_FONE: '(555)123-4567',
+  YOUR_EMAIL: 'penguintech@gmail.com',
+  YOUR_FONE: '+255 764 437 845',
   description:
     "Contact me anytime for assistance, questions, or connections. Use email, direct message, or any provided method. I'll respond promptly and look forward to hearing from you.",
   YOUR_SERVICE_ID: 'service_id',

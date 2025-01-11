@@ -82,10 +82,12 @@ const Hero = () => {
               animate="animate"
               className="flex justify-center md:justify-end mt-6"
             >
-              <button className="primary-btn flex items-center gap-2 group">
-                Get In Touch
-                <IoIosArrowRoundForward className="text-xl group-hover:translate-x-2 group-hover:-rotate-45 duration-300" />
-              </button>
+              <a href="#contact">
+                <button className="primary-btn flex items-center gap-2 group">
+                  Get In Touch
+                  <IoIosArrowRoundForward className="text-xl group-hover:translate-x-2 group-hover:-rotate-45 duration-300" />
+                </button>
+              </a>
             </motion.div>
           </div>
 
