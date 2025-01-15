@@ -61,8 +61,8 @@ const services = [
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: 'penguintech@gmail.com',
-  YOUR_FONE: '+255 764 437 845',
+  YOUR_EMAIL: 'makidevelopers@gmail.com',
+  YOUR_FONE: '+255 767 316 238',
   description:
     "Contact me anytime for assistance, questions, or connections. Use email, direct message, or any provided method. I'll respond promptly and look forward to hearing from you.",
   YOUR_SERVICE_ID: 'service_id',
