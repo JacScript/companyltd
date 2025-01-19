@@ -23,7 +23,7 @@ const NavbarMenu = [
   {
     id: 4,
     title: "Gallery",
-    path: "/gallery",
+    // path: "/gallery",
   },
   {
     id: 5,
